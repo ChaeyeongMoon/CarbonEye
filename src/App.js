@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+// import React, { useState } from 'react';
+// import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// function LoginForm() {
+//     const [email, setEmail] = useState('');
+//     const [password, setPassword] = useState('');
 
-export default App;
+//     const handleEmailChange = (event) => {
+//         setEmail(event.target.value);
+//     };
+
+//     const handlePasswordChange = (event) => {
+//         setPassword(event.target.value);
+//     };
+
+//     const handleSubmit = (event) => {
+//         event.preventDefault();
+//         // Handle form submission logic here
+//     };
+
+//     return (
+//         <form className="login-form" onSubmit={handleSubmit}>
+//             <h2>Login</h2>
+//             <label htmlFor="email">Email</label>
+//             <input
+//                 type="email"
+//                 id="email"
+//                 name="email"
+//                 value={email}
+//                 onChange={handleEmailChange}
+//             />
+//             <label htmlFor="password">Password</label>
+//             <input
+//                 type="password"
+//                 id="password"
+//                 name="password"
+//                 value={password}
+//                 onChange={handlePasswordChange}
+//             />
+//             <button type="submit">Login</button>
+//         </form>
+//     );
+// }
+
+// export default LoginForm;
